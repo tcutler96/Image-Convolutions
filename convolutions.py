@@ -480,10 +480,9 @@ def plot_images(images, rows=1, main_title=None, size=(3, 2.5), show_axes=False,
 
 
 if __name__ == '__main__':
-    image_path = 'Images/Convolutions/flower.png'
+    image_path = 'Images/flower.png'
     input_image = mpimg.imread(image_path).astype('float')
 
-    # hsv_colour_space()
     showcase_basic(image=input_image)
     showcase_edge(image=input_image)
     showcase_canny(image=input_image)
