@@ -12,4 +12,4 @@ def resize(image_path, max_size, save_path):
 
 
 if __name__ == '__main__':
-    resize(image_path='Images/Assorted/assorted_7.jpg', max_size=1000, save_path='Images/Convolutions/space.png')
+    resize(image_path='Images/flower.png', max_size=1000, save_path='Images/flower.png')
